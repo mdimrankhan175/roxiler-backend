@@ -40,6 +40,20 @@ intializeDBAndServer();
 // API to list all transactions with search and pagination
 
 //http://localhost:3000/transactions?page=1$perPage=10&search=''
+
+// API to list all transactions with search and pagination
+
+//http://localhost:3000/transactions?page=1$perPage=10&search=''
+app.get('/', async (req, res) => {
+    try {
+        res.send('Welcome, this is Roxiler company assignment backend domain.Please access any path to get the data');
+    } catch (e) {
+        console.error(e.message);
+        res.status(500).json({ error: 'Internal Server Error' });
+    }
+});
+
+
 app.get('/transactions', async (req, res) => {
     try {
         const page = parseInt(req.query.page) || 1;
