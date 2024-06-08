@@ -4,7 +4,7 @@ This project aims to implement a backend system to manage and analyze product tr
 
 ## Deployment
 
-The project is deployed and can be accessed at [https://roxiler-backend-vijaykumars-projects.vercel.app](https://roxiler-backend-vijaykumars-projects.vercel.app). You can use the following APIs to interact with the system.
+The project is deployed and can be accessed at https://roxiler-backend-9uynxsnth-imran-khans-projects-e9b60205.vercel.app/. You can use the following APIs to interact with the system.
 
 ## API Endpoints
 
